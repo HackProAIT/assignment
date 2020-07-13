@@ -1,0 +1,47 @@
+h1 {
+     text-align: center;
+     color: rgb(12, 12, 37);
+     font-family: sans-serif;
+}
+
+form {
+    text-align: center;
+    padding: 150px;
+}
+
+.input, #sub {
+    border-style: solid;
+    box-shadow: ;
+    border-color: rgb(168, 189, 168);
+    padding: 10px;
+    border-radius: 7px;
+    margin: 10px;
+    box-sizing: 100px;
+    width: 30%;
+}
+
+#sub {
+    color: white;
+    border: green;
+    background-color: rgb(108, 182, 108);
+    width: 32%;
+    font-weight: bold;
+}
+
+.input:focus {
+    outline: none !important;
+    border:solid rgb(108, 182, 108) ;
+}
+
+#sub:focus {
+    outline: none !important;
+    background-color: green;
+}
+
+label {
+    position: absolute;
+    left: 500px;;
+    background-color: white;
+    font-family: Sans-serif;
+    font-weight: 550;
+}
